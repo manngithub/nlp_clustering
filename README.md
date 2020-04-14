@@ -5,3 +5,7 @@ This is unsupervised learning algorithm where patterns are identified and cluste
 ![sample_result](data/sample_result.png)
 
 The above figure shows the starting pattern search from the starting of all tags. Similar we do for ending pattern search. The stoping criteria of any tree branch checks if pattern is reflected in at-least 'n' number of tags. Once all the patterns are extracted based on threshold 'n', every tag is mapped to a pattern of longest length possible. This exercise is performed separately for every customer.
+
+## How to use
+
+Start with Pattern_Identification.ipynb notebook that explains the nature of the data and calls algorithm module from utils_pattern_identification.py file. The notebook also provides results visualization.
